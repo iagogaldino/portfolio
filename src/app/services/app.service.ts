@@ -80,5 +80,31 @@ export class AppService {
         skills: ['react-native', 'firebase'],
       },
     ],
+    projects: [
+      {
+        urlLogo:
+          './assets/projects/images/dash.png',
+        title: 'Dashboard Delivery',
+        text: 'Dashboard delivery com funções de recebimentos de pedidos online, acompanhamento do trajeto das entregas em tempo real utilizando API Geolocation do Google entre outras. Você pode acessar meu sistema utilizando os dados de acesso <br><br>Login: iago_galdino@hotmail.com<br>Senha: 123',
+        linkDemo: "https://dashdelivery.projects.iagogaldino.dev.br",
+        linkGit: "https://github.com/iagogaldino/painelAdministrativoEmpresa",
+      },
+      {
+        urlLogo:
+          './assets/projects/images/app.png',
+        title: 'App Delivery',
+        text: 'Aplicação responsível onde os clientes podem fazer pedidos online, esses pedidos são enviados ao dashboard que também foi desenvolvido por mim.',
+        linkDemo: "https://apidelivery.projects.iagogaldino.dev.br",
+        linkGit: "https://appclientdelivery.projects.iagogaldino.dev.br/",
+      },
+      {
+        urlLogo:
+          './assets/projects/images/port.png',
+        title: 'Portfolio',
+        text: 'Portfolio desenvolvido para apresentar minhas experiências profissionais e projetos.',
+        linkDemo: "https://iagogaldino.dev.br/",
+        linkGit: "https://github.com/iagogaldino/portfolio",
+      }
+    ]
   };
 }

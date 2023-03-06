@@ -1,3 +1,42 @@
-<p>
-  Projects works!
-</p>
+<div class="card">
+  <div class="card-body">Aqui estão alguns projetos que já desenvolvi. Deixei também o projeto online em minha hospedagem para você poder vizualizar clicando no botão <strong>DEMO</strong> e <strong>GITHUB</strong>  para ver o código</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 mt-3" *ngFor="let item of list">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img
+              class="logo img-responsive mx-auto d-block"
+              [src]="item.urlLogo"
+              alt="logo"
+            />
+          </div>
+          <div class="col-sm-12 mt-3">
+            <h5 [innerHTML]="item.title"></h5>
+            <p [innerHTML]="item.text"></p>
+            <a
+              *ngIf="item.linkDemo"
+              [href]="item.linkDemo"
+              target="_blank"
+              type="button"
+              class="btn btn-warning"
+              >Demo</a
+            >
+            <a
+              *ngIf="item.linkGit"
+              [href]="item.linkGit"
+              target="_blank"
+              type="button"
+              class="btn btn-warning ml-1"
+              >Github</a
+            >
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+  </div>
+</div>

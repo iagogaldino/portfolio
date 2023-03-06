@@ -16,6 +16,7 @@ import { ItemStacksComponent } from './components/item-stacks/item-stacks.compon
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconApp } from './items/icons/icons-app';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectsComponent } from './pages/Projects/Projects.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     ItemsCarrerComponent,
     ItemStacksComponent,
     ContactComponent,
-    // icons
+    ProjectsComponent,
     IconApp
   ],
   imports: [
