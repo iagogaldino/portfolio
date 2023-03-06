@@ -1,0 +1,12 @@
+label {
+  font-size: 11px;
+}
+
+.bt-w {
+  margin: auto;
+  background-color: rgb(13, 137, 93);
+  border-radius: 7px;
+  height: 40px;
+  color: white;
+  border: none;
+}

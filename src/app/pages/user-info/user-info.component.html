@@ -1,0 +1,46 @@
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="container-sm p-3" style="font-size: 13px" [innerHTML]="about">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-success border-danger border-2">
+          <hr />
+        </div>
+
+        <h3>Experiências</h3>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card"  *ngFor="let item of list" >
+  <div class="card-body">
+    <div class="row">
+      <div class="col-sm-1">
+        <img
+          class="logo img-thumbnail img-responsive mx-auto d-block"
+          [src]="item.urlLogo"
+          alt="logo"
+        />
+      </div>
+      <div class="col-sm-7 mt-5 mt-sm-0" style="border-right: 1px solid #49505729;">
+        <p [innerHTML]="item.text"></p>
+      </div>
+      <div class="col-sm-4 p-0">
+        <div class="col-sm-12"><h6 style="font-size: 11px">Tecnologias</h6></div>
+        <div class="col-sm-12 align-items-center">
+          <app-item-stacks *ngFor="let skill of item.skills" [iconName]="skill"></app-item-stacks>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </div>
+</div>
+ <!--  -->
+

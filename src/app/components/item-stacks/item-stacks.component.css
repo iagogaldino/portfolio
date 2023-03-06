@@ -1,0 +1,47 @@
+.icon-stack {
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.angular-material {
+  background-image: url('/assets/icons/icon-angular-material.png');
+}
+.angular {
+  background-image: url('/assets/icons/icon-angular.png');
+}
+.html {
+  background-image: url('/assets/icons/icon-html.png');
+}
+.css {
+  background-image: url('/assets/icons/icon-css.png');
+}
+.typescript {
+  background-image: url('/assets/icons/icon-typescript.png');
+}
+.js {
+  background-image: url('/assets/icons/icon-js.png');
+}
+.javascript {
+  background-image: url('/assets/icons/icon-javascript.png');
+}
+.bootstrap {
+  background-image: url('/assets/icons/icon-bootstrap.png');
+}
+.node {
+  background-image: url('/assets/icons/icon-node.png');
+}
+.git {
+  background-image: url('/assets/icons/icon-git.png');
+}
+.react-native {
+  background-image: url('/assets/icons/icon-react-native.png');
+}
+.firebase {
+  background-image: url('/assets/icons/icon-firebase.png');
+}
+.php {
+  background-image: url('/assets/icons/icon-php.png');
+}
+

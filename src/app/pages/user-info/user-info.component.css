@@ -1,0 +1,18 @@
+.logo {
+  min-width: 40px;
+
+}
+
+
+
+@media (min-width: 600px) {
+  .logo {
+    min-width: 40px;
+    top: 0px;
+    margin-top: -20px;
+    margin-left: -29px;
+    position: absolute;
+    left: -16px;
+    height: 92px;
+  }
+}
