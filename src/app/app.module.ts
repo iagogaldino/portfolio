@@ -17,6 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconApp } from './items/icons/icons-app';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/Projects/Projects.component';
+import { ItemAnimComponent } from './components/item-anim/item-anim.component';
+import { MobileWebComponent } from './components/mobile-web/mobile-web.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { ProjectsComponent } from './pages/Projects/Projects.component';
     ItemStacksComponent,
     ContactComponent,
     ProjectsComponent,
-    IconApp
+    ItemAnimComponent,
+    IconApp,
+    MobileWebComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,7 @@ import { AppService } from 'src/app/services/app.service';
 export class ProjectsComponent implements OnInit {
 
   list: Array<any> = this.dataService.appData.projects;
-
+  text: string =  this.dataService.appData.projectsInfo.text;
   constructor(public dataService: AppService) { }
 
   ngOnInit() {

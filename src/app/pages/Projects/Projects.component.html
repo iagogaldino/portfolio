@@ -1,5 +1,5 @@
-<div class="card">
-  <div class="card-body">Aqui estão alguns projetos que já desenvolvi. Deixei também o projeto online em minha hospedagem para você poder vizualizar clicando no botão <strong>DEMO</strong> e <strong>GITHUB</strong>  para ver o código</div>
+<div class="card" *ngIf="text">
+  <div class="card-body" [innerHTML]="text"></div>
 </div>
 
 <div class="row">
@@ -23,6 +23,13 @@
               target="_blank"
               type="button"
               class="btn btn-warning"
+              >Demo</a
+            >
+            <a
+              *ngIf="item.linkRoute"
+              routerLink="/mobile-web"
+              type="button"
+              class="btn btn-warning ml-1"
               >Demo</a
             >
             <a

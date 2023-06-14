@@ -19,8 +19,8 @@ img {
   height: 300px;
   position: absolute;
   width: 300px;
-  bottom: 34px;
-  right: 36px;
+  margin-left: 110px;
+  margin-top: 107px;
   border-radius: 148px 84px;
 }
 

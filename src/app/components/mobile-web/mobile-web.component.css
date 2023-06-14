@@ -1,0 +1,12 @@
+.bt {
+  display: none;
+}
+
+@media screen and (max-device-width: 900px) {
+  .admob {
+    display: none;
+  }
+  .bt {
+    display: block;
+  }
+}
